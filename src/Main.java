@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+
+        int Balans = 100; //начальный счет
+        int deposit = 1000; // сумма пополнения
+        int bonus =; // бонусы
+        int finalBalans; // итог
+
+        if (deposit > 1_000) {
+            bonus = deposit / 100;
+        } else {
+            bonus = 0;}
+            finalBalans = Balans + deposit + bonus;
+            System.out.println("Итоговый баланс " + finalBalans);
+            System.out.println("Бонусы " + bonus);
+        }
+    }
